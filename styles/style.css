@@ -1,0 +1,112 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+/* common font style*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0px;
+}
+.header{
+    background: rgba(255, 144, 14, 0.1);  
+}
+/* nav style  */
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.nav-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 40px;
+}
+
+/* banner  */
+.banner-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 64px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 310px;
+    margin-right: 310px;
+}
+/* button  */
+.btn-primary{
+
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 20px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    margin-left: 570px;
+    margin-right: 550px;
+    margin-bottom: 50px;
+}
+.banner img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 45px;
+}
+
+/* feature-images */
+.feature-images{
+    display: flex;
+    margin-top: 85px;
+    gap: 50px;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(2, 360px);
+    grid-row-gap: 15px;
+    margin-left: 50px;
+}
+.image{
+    width: 342px;
+    height: 342px;
+}
+.quick-list{
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 0px;
+    margin-top: 200px;
+}
+.quick-list-clr{
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+    margin: 0px;
+}
+.quick-list-description{
+    color: #727272;
+    margin-bottom: 30px;
+}
+.feature-btn-primary{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 20px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+}
