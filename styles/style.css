@@ -329,8 +329,7 @@ nav li{
     .images{
         grid-template-columns: repeat(1, 1fr);
         flex-direction: column;
-        margin: 0 auto;
-        display: block;
+        margin-left: 15px;
     }  
     .quick-list{
         margin-top: 0px;
