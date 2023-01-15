@@ -321,7 +321,6 @@ nav li{
     .feature-images{
         flex-direction: column;
         margin-top: 0px;
-
     }
     .banner img{
         margin-top: 10px;
@@ -354,6 +353,79 @@ nav li{
         font-weight: 500;
         font-size: 30px;
     }
+    .some-facts-title, .some-facts-description{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .some-facts-banners{
+        flex-direction: column;
+        gap: 0px;
+        margin-top: 10px;
+    }
+    .sponsors-info{
+        margin-top: 10px;
+    }
+    .sponsors{
+        flex-direction: column;
+    }
+    .copyright-info{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+@media only screen and (min-width:689px) and (max-width: 992px) {
+    body, html{
+        width: 100vw;
+        overflow-x: hidden;
+        padding: 0em 0;
+    }
+    nav{
+        margin-top: 0px;
+        flex-direction: column;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    nav ul{
+        padding-left: 0px;
+        text-align: center;
+        align-items: center;
+    }
+    .nav-title{
+        align-items: center;
+        text-align: center;
+    }
+    .banner-description, .banner-title{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .btn-primary{
+        margin: 0 auto;
+        display: block;
+    }
+    .banner img{
+        margin-top: 10px;
+    }
+    .images{
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        margin-left: 15px;
+    }
+    .love-enjoy{
+        flex-direction: column;
+        margin-top: 0px;
+        margin-left: 0px;
+    } 
+    .ten-years-btn{
+        position: static;
+        left: 0px;
+        top: 0px;
+        margin-left: 10px;
+        display: block;
+        height: 120px;
+        width: 250px;
+        font-weight: 500;
+        font-size: 30px;
+    } 
     .some-facts-title, .some-facts-description{
         margin-left: 0px;
         margin-top: 10px;
